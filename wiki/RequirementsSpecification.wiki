@@ -1,0 +1,26 @@
+This specification state _needs_, _characteristics_, _restrictions_ and _requirements_ this project must satisfy.
+
+= Needs =
+High level statements that represents the business need, the real problem that the solution intend to solve.
+
+  * To make a LDAP schema specification for most of the LDAP implementations in a easy way and whith out any LDAP schema syntax knowledge.
+  * Given a LDAP schema convert it to other implementation syntax or formats 
+
+= Characteristics =
+The solution MUST permit to:
+
+  * Convert between LDAP schema formats
+  * Create classes and its attributes
+  * Input classes and attributes OID by the user or assign one automatically
+  * Select attribute types from a list automatically generated from a specified LDAP server
+  * Assign as attribute types members of existent classes
+  
+
+= Restrictions =
+This statements are no negotiable:
+
+  * Must be developed using Python
+
+= Functional requirements =
+
+= Non functional requirements =
