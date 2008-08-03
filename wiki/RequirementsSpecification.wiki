@@ -4,15 +4,15 @@ This specification state _needs_, _characteristics_, _restrictions_ and _require
 = Needs =
 High level statements that represents the business need, the real problem that the solution intend to solve.
 
-  * To make a LDAP schema specification for most of the LDAP implementations in a easy way and whith out any LDAP schema syntax knowledge.
-  * Given a LDAP schema convert it to other implementation syntax or formats 
+  * To make a LDAP schema specification for most of the LDAP implementations in a easy way and whithout any LDAP schema syntax knowledge.
+  * Given a LDAP schema convert it to another implementation syntax or format.
 
 = Characteristics =
 The solution MUST permit to:
 
   * Convert between LDAP schema formats
-  * Create classes and its attributes
-  * Input classes and attributes OID by the user or assign one automatically
+  * Create objectclass definitions and its attributes
+  * Input objectclasses and attributes OID by the user or assign one automatically
   * Select attribute types from a list automatically generated from a specified LDAP server
   * Assign as attribute types members of existent classes
   
