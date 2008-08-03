@@ -11,10 +11,10 @@ High level statements that represents the business need, the real problem that t
 The solution MUST permit to:
 
   * Convert between LDAP schema formats
-  * Create objectclass definitions and its attributes
-  * Input objectclasses and attributes OID by the user or assign one automatically
+  * Create objectclass definitions and its attributes from the classes of a model.
+  * Input objectclasses and attributes OID by the user or assign one automatically from a test branch in the OID namespace.
   * Select attribute types from a list automatically generated from a specified LDAP server
-  * Assign as attribute types members of existent classes
+  * Give the option to assign as attribute type, members of existent classes in order to create a cross-reference (DN type) between objects in the DIT.
   
 
 = Restrictions =
