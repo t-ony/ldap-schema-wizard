@@ -1,4 +1,4 @@
-#labels Ideas
+#labels Ideas,Phase-Design
 Here are a list of new ideas, features or something that could be cool:
 
   * Verify the generated schema with slapverify, Same way before start if an ldif or schema or something is provided find the way to verify it.
